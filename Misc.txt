@@ -1,0 +1,21 @@
+stock_price_analyzer/
+│
+├── data/
+│   └── stock_data.csv        # raw data file
+│
+├── notebooks/
+│   └── exploratory_analysis.ipynb   # for exploratory data analysis
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py        # functions to load data
+│   ├── data_cleaner.py       # functions to clean data
+│   ├── analyzer.py           # data analysis functions
+│   └── visualizer.py         # plotting functions
+│
+├── tests/
+│   └── test_data_cleaner.py  # unit tests for cleaning functions
+│
+├── main.py                   # main script to run the pipeline
+├── requirements.txt          # dependencies: numpy, pandas, matplotlib
+└── README.md
